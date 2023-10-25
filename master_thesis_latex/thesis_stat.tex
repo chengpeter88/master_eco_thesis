@@ -1,0 +1,41 @@
+\documentclass[12pt, a4paper]{article} 
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable, theorems}
+\usepackage{subcaption}
+\usepackage{pdflscape} 
+
+\newtcbtheorem{question}{题~(理}%
+  {enhanced, breakable,
+    colback = white, colframe = cyan, colbacktitle = cyan,
+    attach boxed title to top left = {yshift = -2mm, xshift = 5mm},
+    boxed title style = {sharp corners},
+    fonttitle = \sffamily\bfseries, separator sign = {).~}}{qst}
+\input{pre._CJK_thesis}   % 使用自己維護的定義檔
+%-----------------------------------------------------------------------------------------------------------------------
+% 文章開始
+\title{ Teps-b資料統計}
+\author{{\SM 鄭仲恒}}
+\date{{\TT \today}} 	 
+\begin{document}
+\maketitle
+\fontsize{12}{22 pt}\selectfont
+Teps-b統計資料與圖形分析，CP代表原先調查為國中生族群，SH為原先調查高中生族群。文章先由CP核心資料先介紹，再後續介紹SH。
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{CP-核心資料國中生}
+調查的資料分佈年份為2009、2013、2014、2019年，其中2014年度為專員實際進行面訪受訪者，其餘3次調查譏為電話訪談資料。
+\subsection{2009年度調查-電訪}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{\imgdir contact.png}
+    \caption{受訪者接觸狀況}\label{pic:contact}
+
+\end{figure}
+
+
+
+
+
+\end{document}
