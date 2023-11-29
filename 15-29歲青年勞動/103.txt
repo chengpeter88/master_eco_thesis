@@ -1,0 +1,11 @@
+Decriptive statistics					
+	(1)	(2)	(3)	(4)	(5)
+VARIABLES	N	mean	sd	min	max
+					
+sub_req	4,034	0.493	0.500	0	1
+sub_over	4,034	0.313	0.464	0	1
+sub_und	4,034	0.193	0.395	0	1
+obj_req_1	4,034	0.393	0.488	0	1
+obj_over_1	4,034	0.401	0.490	0	1
+obj_und_1	4,034	0.206	0.404	0	1
+					
